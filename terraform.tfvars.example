@@ -1,0 +1,18 @@
+# AWS Specific Variables
+access_key = "Your AWS IAM User Access Key"
+secret_key = "Your AWS IAM User Secret Key"
+region = "Your Preferred AWS Region (i.e. us-east-1)"
+instance_type = "Your preferred AWS instance type (i.e. t2.medium) for your chef server"
+ami = "Your preferred AMI id (i.e. ami-fce3c696)"
+key_name = "Name of your AWS ssh key pair"
+private_ssh_key_path = "Path to the private key of your AWS ssh key pair on your local workstation"
+vpc_security_group_ids = "Ids for Security Groups within your AWS VPC that you want to assign to your chef server instance"
+vpc_subnet = "Subnet in your VPC to assign your chef server to"
+
+chef_server_username = "Username for your first chef server user account (this will be an admin on your Chef Server)"
+chef_server_user_full_name = "Full Name for your first chef server user account"
+chef_server_user_email = "Email address for your first chef server user account"
+chef_server_user_password = "Password for your first chef server user account"
+chef_server_org_name = "Name of your first chef server organization"
+chef_server_org_full_name = "Full Name of your first chef server organization"
+
